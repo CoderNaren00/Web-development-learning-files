@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors In CSS</title>
+    <style>
+        /*Element Selector*/
+        div {
+            /* background-color: red;*/
+        }
+
+        /* Class Selector */
+        .red {
+            background-color: red;
+        }
+
+        /* Id Selector*/
+        #green {
+            background-color: green;
+
+        }
+
+        /* Child Selector */
+        div>p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /*Decendent Selector*/
+
+        div p {
+            color: blue, 7, 252);
+            background-color: brown;
+        }
+
+        /* Universal Selector*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Psedu Selector*/
+        a:visited {
+            color: rgb(192, 29, 70);
+
+        }
+
+        a:link {
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        P:first-child{
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>I am one</p>
+        <p>I am Second</p>
+    </div>
+    <div class="red"> I am div</div>
+    <article>
+
+        <p>I am a example of div</p>
+    </article>
+    <div id="green"> I am another div</div>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.facebook.com">facebook</a>
+</body>
+
+</html>

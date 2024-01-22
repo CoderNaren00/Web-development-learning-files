@@ -1,0 +1,14 @@
+body{
+    background-color: azure;
+}
+.red{
+ color: blue;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+#firstdiv{
+    /*background-color: red;*/
+}
